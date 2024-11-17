@@ -138,7 +138,12 @@ For support, please [create an issue](your-repository-url/issues) in the reposit
 ## Usage 🚀
 
 Start the application:
+
 streamlit run main.py
+
+1. Upload documents through the sidebar interface
+2. Click "Process Documents" to initialize the vector database
+3. Start chatting with your documents!
 
 ## Demo 🎥
 
