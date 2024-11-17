@@ -135,6 +135,13 @@ For support, please [create an issue](your-repository-url/issues) in the reposit
 - HuggingFace for transformer models
 - Ollama for local LLM support
 
+## Usage 🚀
+
+Start the application:
+streamlit run main.py
+
+## Demo 🎥
+
 ---
 
 Built with ❤️ using Python, Streamlit, and LangChain
