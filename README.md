@@ -138,8 +138,9 @@ For support, please [create an issue](your-repository-url/issues) in the reposit
 ## Usage 🚀
 
 Start the application:
-
+```bash
 streamlit run main.py
+```
 
 1. Upload documents through the sidebar interface
 2. Click "Process Documents" to initialize the vector database
@@ -147,7 +148,7 @@ streamlit run main.py
 
 ## Demo 🎥
 
-[[Ollama-Llama3.2-RAG-Chatbot-DemoVideo.mp4](https://github.com/marklumba/ollama-llama3.2-rag-chat/issues/1#issue-2665479742)](https://github.com/marklumba/ollama-llama3.2-rag-chat/issues/1)
+
 
 ---
 
