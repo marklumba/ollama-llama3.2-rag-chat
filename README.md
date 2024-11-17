@@ -148,7 +148,7 @@ streamlit run main.py
 
 ## Demo 🎥
 
-![Demo](https://raw.githubusercontent.com/marklumba/ollama-llama3.2-rag-chat/main/assets/Demo.png)
+![Demo](https://raw.githubusercontent.com/marklumba/ollama-llama3.2-rag-chat/main/Demo.png)
 
 ---
 
