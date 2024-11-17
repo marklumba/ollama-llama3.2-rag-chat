@@ -65,7 +65,7 @@ ollama pull llama3.2
 
 1. Start the application:
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 
 2. Upload documents through the sidebar interface
