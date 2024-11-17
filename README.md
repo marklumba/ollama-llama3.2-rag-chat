@@ -148,8 +148,7 @@ streamlit run main.py
 
 ## Demo 🎥
 
-Demo.png
-
+![Demo](https://github.com/marklumba/ollama-llama3.2-rag-chat/raw/main/assets/Demo.png)
 ---
 
 Built with ❤️ using Python, Streamlit, and LangChain
