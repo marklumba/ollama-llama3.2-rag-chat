@@ -146,9 +146,9 @@ streamlit run main.py
 2. Click "Process Documents" to initialize the vector database
 3. Start chatting with your documents!
 
-## Demo 🎥
+## Sample Screenshot Demo 🎥
 
-![Demo](https://raw.githubusercontent.com/marklumba/ollama-llama3.2-rag-chat/main/Demo.png)
+![Sample Screenshot](main/Demo.png)
 
 ---
 
