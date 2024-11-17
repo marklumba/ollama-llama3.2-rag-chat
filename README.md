@@ -155,17 +155,6 @@ For support, please [create an issue](your-repository-url/issues) in the reposit
 - HuggingFace for transformer models
 - Ollama for local LLM support
 
-## Usage 🚀
-
-Start the application:
-```bash
-streamlit run main.py
-```
-
-1. Upload documents through the sidebar interface
-2. Click "Process Documents" to initialize the vector database
-3. Start chatting with your documents!
-
 ## Sample Screenshot Demo 🎥
 
 ![Demo](https://raw.githubusercontent.com/marklumba/ollama-llama3.2-rag-chat/main/Demo.png)
