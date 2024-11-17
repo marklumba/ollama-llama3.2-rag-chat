@@ -147,7 +147,7 @@ streamlit run main.py
 
 ## Demo 🎥
 
-Ollama-Llama3.2-RAG-Chatbot-DemoVideo.mp4
+[Ollama-Llama3.2-RAG-Chatbot-DemoVideo.mp4](https://github.com/marklumba/ollama-llama3.2-rag-chat/issues/1#issue-2665479742)
 
 ---
 
