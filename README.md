@@ -160,8 +160,9 @@ For support, please [create an issue](your-repository-url/issues) in the reposit
 ![Demo](https://raw.githubusercontent.com/marklumba/ollama-llama3.2-rag-chat/main/Demo.png)
 
 
-## RAG Architecture Flow Diagram
+# RAG (Retrieval Augmented Generation) Architecture
 
+```mermaid
 graph TB
     subgraph Input ["Document Input Layer"]
         A[File Upload] --> |PDF/TXT/CSV/XLSX/DOCX| B[Document Loader]
@@ -204,6 +205,6 @@ graph TB
     class E,F storage
     class J,L process
     class M,N,O output
----
+```
 
 Built with ❤️ using Python, Streamlit, and LangChain
