@@ -159,6 +159,51 @@ For support, please [create an issue](your-repository-url/issues) in the reposit
 
 ![Demo](https://raw.githubusercontent.com/marklumba/ollama-llama3.2-rag-chat/main/Demo.png)
 
+
+## RAG Architecture Flow Diagram
+
+graph TB
+    subgraph Input ["Document Input Layer"]
+        A[File Upload] --> |PDF/TXT/CSV/XLSX/DOCX| B[Document Loader]
+        B --> C[Text Splitter]
+        C --> |Chunks| D[Vector Embedding]
+    end
+
+    subgraph Storage ["Vector Storage Layer"]
+        D --> E[FAISS Vector DB]
+        E --> F[Document Retriever]
+    end
+
+    subgraph Query ["Query Processing Layer"]
+        G[User Question] --> H[Context-Aware Processor]
+        H --> |Enhanced Query| I[History-Aware Retriever]
+        F --> I
+        I --> J[Retrieved Documents]
+    end
+
+    subgraph Generation ["Response Generation Layer"]
+        J --> K[LLM - Llama3.2]
+        L[Chat History] --> K
+        K --> M[Final Response]
+    end
+
+    subgraph Analysis ["Response Analysis"]
+        M --> N[Similarity Calculator]
+        J --> N
+        N --> O[Relevancy Score]
+    end
+
+    classDef primary fill:#2374f7,stroke:#fff,stroke-width:2px,color:#fff
+    classDef secondary fill:#3f4d67,stroke:#fff,stroke-width:2px,color:#fff
+    classDef storage fill:#ff7f0e,stroke:#fff,stroke-width:2px,color:#fff
+    classDef process fill:#2ca02c,stroke:#fff,stroke-width:2px,color:#fff
+    classDef output fill:#9467bd,stroke:#fff,stroke-width:2px,color:#fff
+
+    class A,G primary
+    class B,C,D,H,I,K secondary
+    class E,F storage
+    class J,L process
+    class M,N,O output
 ---
 
 Built with ❤️ using Python, Streamlit, and LangChain
